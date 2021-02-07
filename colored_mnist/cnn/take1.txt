@@ -1,0 +1,276 @@
+About Dataset [training]
+one: 6742
+seven: 6265
+Total: 13007
+Noise: 0.000000
+Shape: [1, 7, 7]
+
+About Dataset [testing]
+one: 1135
+seven: 1028
+Total: 2163
+Noise: 0.000000
+Shape: [1, 7, 7]
+
+Using Device : cpu
+Encoded Space Dimensions : [16, 7, 7]
+
+Epoch 0001/0050 : Loss : 0.472406 	 Accuracy : 10263/13007 (78.903664)
+eval Loss : 0.253376 	 Accuracy : 2120/2163 (98.012024)
+
+{'loss_epoch': 0.25337618589401245, 'accuracy': 98.01202392578125}
+saving checkpoint for highest accuracy =  98.01202392578125
+
+Epoch 0002/0050 : Loss : 0.294280 	 Accuracy : 11864/13007 (91.212425)
+eval Loss : 0.132278 	 Accuracy : 2125/2163 (98.243179)
+
+{'loss_epoch': 0.13227811455726624, 'accuracy': 98.24317932128906}
+saving checkpoint for highest accuracy =  98.24317932128906
+
+Epoch 0003/0050 : Loss : 0.227642 	 Accuracy : 12060/13007 (92.719307)
+eval Loss : 0.097838 	 Accuracy : 2131/2163 (98.520576)
+
+{'loss_epoch': 0.09783831238746643, 'accuracy': 98.52057647705078}
+saving checkpoint for highest accuracy =  98.52057647705078
+
+Epoch 0004/0050 : Loss : 0.189511 	 Accuracy : 12136/13007 (93.303604)
+eval Loss : 0.071166 	 Accuracy : 2136/2163 (98.751732)
+
+{'loss_epoch': 0.07116609066724777, 'accuracy': 98.7517318725586}
+saving checkpoint for highest accuracy =  98.7517318725586
+
+Epoch 0005/0050 : Loss : 0.170771 	 Accuracy : 12217/13007 (93.926346)
+eval Loss : 0.064729 	 Accuracy : 2126/2163 (98.289413)
+
+{'loss_epoch': 0.06472881138324738, 'accuracy': 98.28941345214844}
+
+Epoch 0006/0050 : Loss : 0.156256 	 Accuracy : 12238/13007 (94.087799)
+eval Loss : 0.041413 	 Accuracy : 2135/2163 (98.705505)
+
+{'loss_epoch': 0.04141329601407051, 'accuracy': 98.70550537109375}
+
+Epoch 0007/0050 : Loss : 0.147166 	 Accuracy : 12283/13007 (94.433769)
+eval Loss : 0.041137 	 Accuracy : 2135/2163 (98.705505)
+
+{'loss_epoch': 0.04113699868321419, 'accuracy': 98.70550537109375}
+
+Epoch 0008/0050 : Loss : 0.144846 	 Accuracy : 12254/13007 (94.210808)
+eval Loss : 0.039266 	 Accuracy : 2136/2163 (98.751732)
+
+{'loss_epoch': 0.03926623612642288, 'accuracy': 98.7517318725586}
+
+Epoch 0009/0050 : Loss : 0.141427 	 Accuracy : 12276/13007 (94.379951)
+eval Loss : 0.041413 	 Accuracy : 2133/2163 (98.613037)
+
+{'loss_epoch': 0.04141251742839813, 'accuracy': 98.613037109375}
+
+Epoch 0010/0050 : Loss : 0.126718 	 Accuracy : 12357/13007 (95.002693)
+eval Loss : 0.031840 	 Accuracy : 2142/2163 (99.029129)
+
+{'loss_epoch': 0.031839970499277115, 'accuracy': 99.02912902832031}
+saving checkpoint for highest accuracy =  99.02912902832031
+
+Epoch 0011/0050 : Loss : 0.133052 	 Accuracy : 12299/13007 (94.556778)
+eval Loss : 0.025913 	 Accuracy : 2147/2163 (99.260284)
+
+{'loss_epoch': 0.025913028046488762, 'accuracy': 99.26028442382812}
+saving checkpoint for highest accuracy =  99.26028442382812
+
+Epoch 0012/0050 : Loss : 0.132314 	 Accuracy : 12282/13007 (94.426079)
+eval Loss : 0.026835 	 Accuracy : 2144/2163 (99.121590)
+
+{'loss_epoch': 0.026835449039936066, 'accuracy': 99.12158966064453}
+
+Epoch 0013/0050 : Loss : 0.128307 	 Accuracy : 12314/13007 (94.672096)
+eval Loss : 0.032102 	 Accuracy : 2140/2163 (98.936661)
+
+{'loss_epoch': 0.032101526856422424, 'accuracy': 98.93666076660156}
+
+Epoch 0014/0050 : Loss : 0.121176 	 Accuracy : 12353/13007 (94.971939)
+eval Loss : 0.024380 	 Accuracy : 2147/2163 (99.260284)
+
+{'loss_epoch': 0.024380385875701904, 'accuracy': 99.26028442382812}
+
+Epoch 0015/0050 : Loss : 0.123827 	 Accuracy : 12310/13007 (94.641350)
+eval Loss : 0.025295 	 Accuracy : 2144/2163 (99.121590)
+
+{'loss_epoch': 0.025295237079262733, 'accuracy': 99.12158966064453}
+
+Epoch 0016/0050 : Loss : 0.116644 	 Accuracy : 12359/13007 (95.018066)
+eval Loss : 0.024257 	 Accuracy : 2146/2163 (99.214058)
+
+{'loss_epoch': 0.024256853386759758, 'accuracy': 99.21405792236328}
+
+Epoch 0017/0050 : Loss : 0.115764 	 Accuracy : 12356/13007 (94.995003)
+eval Loss : 0.019693 	 Accuracy : 2151/2163 (99.445213)
+
+{'loss_epoch': 0.019692929461598396, 'accuracy': 99.4452133178711}
+saving checkpoint for highest accuracy =  99.4452133178711
+
+Epoch 0018/0050 : Loss : 0.115881 	 Accuracy : 12318/13007 (94.702850)
+eval Loss : 0.032574 	 Accuracy : 2138/2163 (98.844200)
+
+{'loss_epoch': 0.03257422894239426, 'accuracy': 98.84420013427734}
+
+Epoch 0019/0050 : Loss : 0.117293 	 Accuracy : 12332/13007 (94.810486)
+eval Loss : 0.022548 	 Accuracy : 2147/2163 (99.260284)
+
+{'loss_epoch': 0.02254759520292282, 'accuracy': 99.26028442382812}
+
+Epoch 0020/0050 : Loss : 0.113288 	 Accuracy : 12378/13007 (95.164139)
+eval Loss : 0.018027 	 Accuracy : 2150/2163 (99.398979)
+
+{'loss_epoch': 0.01802697405219078, 'accuracy': 99.39897918701172}
+
+Epoch 0021/0050 : Loss : 0.113180 	 Accuracy : 12331/13007 (94.802795)
+eval Loss : 0.016058 	 Accuracy : 2148/2163 (99.306519)
+
+{'loss_epoch': 0.01605842635035515, 'accuracy': 99.3065185546875}
+
+Epoch 0022/0050 : Loss : 0.107141 	 Accuracy : 12405/13007 (95.371719)
+eval Loss : 0.019655 	 Accuracy : 2146/2163 (99.214058)
+
+{'loss_epoch': 0.019654996693134308, 'accuracy': 99.21405792236328}
+
+Epoch 0023/0050 : Loss : 0.109348 	 Accuracy : 12394/13007 (95.287155)
+eval Loss : 0.014741 	 Accuracy : 2153/2163 (99.537682)
+
+{'loss_epoch': 0.014740698970854282, 'accuracy': 99.53768157958984}
+saving checkpoint for highest accuracy =  99.53768157958984
+
+Epoch 0024/0050 : Loss : 0.109238 	 Accuracy : 12355/13007 (94.987312)
+eval Loss : 0.016637 	 Accuracy : 2149/2163 (99.352753)
+
+{'loss_epoch': 0.01663728430867195, 'accuracy': 99.35275268554688}
+
+Epoch 0025/0050 : Loss : 0.113057 	 Accuracy : 12355/13007 (94.987312)
+eval Loss : 0.024675 	 Accuracy : 2145/2163 (99.167824)
+
+{'loss_epoch': 0.024675436317920685, 'accuracy': 99.1678237915039}
+
+Epoch 0026/0050 : Loss : 0.103866 	 Accuracy : 12405/13007 (95.371719)
+eval Loss : 0.014040 	 Accuracy : 2152/2163 (99.491447)
+
+{'loss_epoch': 0.014039910398423672, 'accuracy': 99.49144744873047}
+
+Epoch 0027/0050 : Loss : 0.101241 	 Accuracy : 12380/13007 (95.179520)
+eval Loss : 0.014912 	 Accuracy : 2150/2163 (99.398979)
+
+{'loss_epoch': 0.014911974780261517, 'accuracy': 99.39897918701172}
+
+Epoch 0028/0050 : Loss : 0.102600 	 Accuracy : 12397/13007 (95.310219)
+eval Loss : 0.017003 	 Accuracy : 2147/2163 (99.260284)
+
+{'loss_epoch': 0.01700281910598278, 'accuracy': 99.26028442382812}
+
+Epoch 0029/0050 : Loss : 0.105757 	 Accuracy : 12369/13007 (95.094948)
+eval Loss : 0.017235 	 Accuracy : 2150/2163 (99.398979)
+
+{'loss_epoch': 0.01723536290228367, 'accuracy': 99.39897918701172}
+
+Epoch 0030/0050 : Loss : 0.104848 	 Accuracy : 12405/13007 (95.371719)
+eval Loss : 0.015251 	 Accuracy : 2149/2163 (99.352753)
+
+{'loss_epoch': 0.015250514261424541, 'accuracy': 99.35275268554688}
+
+Epoch 0031/0050 : Loss : 0.106959 	 Accuracy : 12357/13007 (95.002693)
+eval Loss : 0.020429 	 Accuracy : 2144/2163 (99.121590)
+
+{'loss_epoch': 0.02042851410806179, 'accuracy': 99.12158966064453}
+
+Epoch 0032/0050 : Loss : 0.101931 	 Accuracy : 12408/13007 (95.394791)
+eval Loss : 0.013489 	 Accuracy : 2152/2163 (99.491447)
+
+{'loss_epoch': 0.013489128090441227, 'accuracy': 99.49144744873047}
+
+Epoch 0033/0050 : Loss : 0.099103 	 Accuracy : 12411/13007 (95.417854)
+eval Loss : 0.012646 	 Accuracy : 2150/2163 (99.398979)
+
+{'loss_epoch': 0.012645912356674671, 'accuracy': 99.39897918701172}
+
+Epoch 0034/0050 : Loss : 0.101174 	 Accuracy : 12398/13007 (95.317909)
+eval Loss : 0.010342 	 Accuracy : 2156/2163 (99.676376)
+
+{'loss_epoch': 0.01034186128526926, 'accuracy': 99.67637634277344}
+saving checkpoint for highest accuracy =  99.67637634277344
+
+Epoch 0035/0050 : Loss : 0.094195 	 Accuracy : 12465/13007 (95.833015)
+eval Loss : 0.015109 	 Accuracy : 2150/2163 (99.398979)
+
+{'loss_epoch': 0.01510872133076191, 'accuracy': 99.39897918701172}
+
+Epoch 0036/0050 : Loss : 0.097026 	 Accuracy : 12415/13007 (95.448608)
+eval Loss : 0.011507 	 Accuracy : 2154/2163 (99.583908)
+
+{'loss_epoch': 0.01150735467672348, 'accuracy': 99.58390808105469}
+
+Epoch 0037/0050 : Loss : 0.091914 	 Accuracy : 12453/13007 (95.740753)
+eval Loss : 0.011140 	 Accuracy : 2153/2163 (99.537682)
+
+{'loss_epoch': 0.011140075512230396, 'accuracy': 99.53768157958984}
+
+Epoch 0038/0050 : Loss : 0.099614 	 Accuracy : 12408/13007 (95.394791)
+eval Loss : 0.013359 	 Accuracy : 2150/2163 (99.398979)
+
+{'loss_epoch': 0.013359153643250465, 'accuracy': 99.39897918701172}
+
+Epoch 0039/0050 : Loss : 0.101138 	 Accuracy : 12396/13007 (95.302528)
+eval Loss : 0.012954 	 Accuracy : 2150/2163 (99.398979)
+
+{'loss_epoch': 0.012953970581293106, 'accuracy': 99.39897918701172}
+
+Epoch 0040/0050 : Loss : 0.096254 	 Accuracy : 12430/13007 (95.563927)
+eval Loss : 0.009639 	 Accuracy : 2155/2163 (99.630142)
+
+{'loss_epoch': 0.009639021009206772, 'accuracy': 99.63014221191406}
+
+Epoch 0041/0050 : Loss : 0.096805 	 Accuracy : 12433/13007 (95.586990)
+eval Loss : 0.020548 	 Accuracy : 2145/2163 (99.167824)
+
+{'loss_epoch': 0.02054755389690399, 'accuracy': 99.1678237915039}
+
+Epoch 0042/0050 : Loss : 0.091146 	 Accuracy : 12459/13007 (95.786880)
+eval Loss : 0.009037 	 Accuracy : 2156/2163 (99.676376)
+
+{'loss_epoch': 0.009036694653332233, 'accuracy': 99.67637634277344}
+
+Epoch 0043/0050 : Loss : 0.091173 	 Accuracy : 12407/13007 (95.387100)
+eval Loss : 0.011333 	 Accuracy : 2154/2163 (99.583908)
+
+{'loss_epoch': 0.011332995258271694, 'accuracy': 99.58390808105469}
+
+Epoch 0044/0050 : Loss : 0.099573 	 Accuracy : 12403/13007 (95.356346)
+eval Loss : 0.009916 	 Accuracy : 2156/2163 (99.676376)
+
+{'loss_epoch': 0.009916230104863644, 'accuracy': 99.67637634277344}
+
+Epoch 0045/0050 : Loss : 0.096140 	 Accuracy : 12405/13007 (95.371719)
+eval Loss : 0.013434 	 Accuracy : 2150/2163 (99.398979)
+
+{'loss_epoch': 0.01343399379402399, 'accuracy': 99.39897918701172}
+
+Epoch 0046/0050 : Loss : 0.093989 	 Accuracy : 12420/13007 (95.487045)
+eval Loss : 0.016539 	 Accuracy : 2149/2163 (99.352753)
+
+{'loss_epoch': 0.016538996249437332, 'accuracy': 99.35275268554688}
+
+Epoch 0047/0050 : Loss : 0.097183 	 Accuracy : 12409/13007 (95.402473)
+eval Loss : 0.008616 	 Accuracy : 2156/2163 (99.676376)
+
+{'loss_epoch': 0.008616441860795021, 'accuracy': 99.67637634277344}
+
+Epoch 0048/0050 : Loss : 0.087886 	 Accuracy : 12453/13007 (95.740753)
+eval Loss : 0.008455 	 Accuracy : 2157/2163 (99.722610)
+
+{'loss_epoch': 0.008455486036837101, 'accuracy': 99.72261047363281}
+saving checkpoint for highest accuracy =  99.72261047363281
+
+Epoch 0049/0050 : Loss : 0.087886 	 Accuracy : 12453/13007 (95.740753)
+eval Loss : 0.008455 	 Accuracy : 2157/2163 (99.722610)
+
+{'loss_epoch': 0.008455486036837101, 'accuracy': 99.72261047363281}
+
+Epoch 0050/0050 : Loss : 0.087886 	 Accuracy : 12453/13007 (95.740753)
+eval Loss : 0.008455 	 Accuracy : 2157/2163 (99.722610)
+
+{'loss_epoch': 0.008455486036837101, 'accuracy': 99.72261047363281}
