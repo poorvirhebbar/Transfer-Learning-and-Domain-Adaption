@@ -361,11 +361,11 @@ def main():
     
     '''
     #making trainset for M1' and M2
-    trained_model = train_set = make_mixed_train_dataset(30000, 2000, 2000)
+    train_set = make_mixed_train_dataset(30000, 2000, 2000)
     
 
 #     #train on base + blur data pretrained weights(M1')
-#     train(train_set, "pre_trained_net.pth", load_param=True)
+#   trained_model =   train(train_set, "pre_trained_net.pth", load_param=True)
     
     
 #     #testing M1' model
