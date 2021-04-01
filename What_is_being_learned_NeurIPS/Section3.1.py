@@ -281,22 +281,57 @@ def train(trainset, file_name="", load_param=False, ):
 
     
 ############Calculating accuracy by testing on test data  
-def test( testset, loaded_model=False):
+def train(trainset, file_name="", load_param=False, ):
+    
+    
+    train_set = torch.utils.data.DataLoader(trainset, batch_size=10, shuffle=True)
+    
+
+    if load_param == True:
+        model = load_model_param()
+        print("model used is loaded one")
+    else:
+        net = Net()
+        model = net
+        print("model used is Net")
+        
+    ###############################################################Training model.
+    loss_function = nn.CrossEntropyLoss()
+    optimizer = optim.Adam(model.parameters(), lr=0.00005)
+
+    for epoch in range(10):
+        for data in train_set:  # `data` is a batch of data
+            X, y = data # X is the batch of features, y is the batch of targets.
+            model.zero_grad()  # sets gradients to 0 before loss calc. You will do this likely every step.
+            output = model(X)  # pass in the reshaped batch (recall they are 28x28 atm)
+            loss = F.nll_loss(output, y)  # calc and grab the loss value
+            loss.backward()  # apply this loss backwards thru the network's parameters
+            optimizer.step()  # attempt to optimize weights to account for loss/gradients
+        print(loss)  # print loss. We hope loss (a measure of wrong-ness) declines!
+        
+    FILE = file_name
+    torch.save(model.state_dict(), FILE)
+    
+    return model
+
+    
+############Calculating accuracy by testing on test data  
+def test( testset, test_model):
     
     test_set = torch.utils.data.DataLoader(testset, batch_size=10, shuffle=True)
     correct = 0
     total = 0
     
-    if loaded_model == True:
-        model = load_model_param()
-    else:
-        net = Net()
-        model = net
+#     if loaded_model == True:
+#         model = load_model_param()
+#     else:
+#         #net = Net()
+#         model = net
         
     with torch.no_grad():
         for data in test_set:
             X, y = data
-            output = model(X)
+            output = test_model(X)
             #print(output)
             for idx, i in enumerate(output):
                 #print(torch.argmax(i), y[idx])
@@ -326,45 +361,44 @@ def main():
     
     '''
     #making trainset for M1' and M2
-    train_set = make_mixed_train_dataset(30000, 2000, 2000)
+    trained_model = train_set = make_mixed_train_dataset(30000, 2000, 2000)
     
 
-    #train on base + blur data pretrained weights(M1')
-    train(train_set, "pre_trained_net.pth", load_param=True)
+#     #train on base + blur data pretrained weights(M1')
+#     train(train_set, "pre_trained_net.pth", load_param=True)
     
     
-    #testing M1' model
-    test_set = make_mixed_test_dataset() #testing on mixed data
-    print("test result on base+blur images")
-    test(test_set, loaded_model=True)
+#     #testing M1' model
+#     test_set = make_mixed_test_dataset() #testing on mixed data
+#     print("test result on base+blur images")
+#     test(test_set, trained_model)
     
-    test_set = get_all_test_blurdata() #testin on all blur data
-    print("test result on all blur images")
-    test(test_set, loaded_model=True)
+#     test_set = get_all_test_blurdata() #testin on all blur data
+#     print("test result on all blur images")
+#     test(test_set, trained_model)
     
-    print("test result on all base images")#testing on all base images
-    test(testset, loaded_model=True)
+#     print("test result on all base images")#testing on all base images
+#     test(testset, trained_model)
     
     
     
     print("M2 model training and testing")
     #train on base + blur data random weights(M2)
-    train(train_set, "random_net.pth", load_param=False)
+    trained_model = train(train_set, "random_net.pth", load_param=False)
     
     
     
     #testing M2 model
     test_set = make_mixed_test_dataset() #testing on mixed data
     print("test result on base+blur images")
-    test(test_set, loaded_model=False)
+    test(test_set, trained_model)
     
     test_set = get_all_test_blurdata() #testin on all blur data
     print("test result on all blur images")
-    test(test_set, loaded_model=False)
+    test(test_set, trained_model)
     
     print("test result on all base images")
-    test(test_set, loaded_model=False)
+    test(test_set, trained_model)
     
 
 main()    
-
